@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "name": "univbot",
+  "description": "UNIV OFFICIAL DISCORD BOT",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UNIV-development/UNIVBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UNIV-development/UNIVBot/issues"
+  },
+  "homepage": "https://github.com/UNIV-development/UNIVBot#readme"
+}
