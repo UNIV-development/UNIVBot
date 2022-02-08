@@ -12,7 +12,22 @@ const Client = new Discord.Client(
 );
 
 Client.once('ready', () => {
-	console.log('ready??');
+    let commands = Client.application.commands;
+    commands.create(
+    {
+        name: 'iloveyou',
+        description: 'metoo'
+    });
+});
+
+Client.on('interactionCreate', async interaction =>
+{
+    if (!interaction.isCommand()) return;
+});
+
+Client.on('messageCreate', message =>
+{
+    
 });
 
 Client.login(Config.Token);
