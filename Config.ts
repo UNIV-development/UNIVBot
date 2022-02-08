@@ -1,4 +1,4 @@
 export const Config = 
 {
-    Token:'OTI3MTE5ODEyMTA5NDM0OTMw.YdFlnA.yywHwphZ8Y0DkPNe0w2qEuNgpUM'
+    Token:'YOUR_TOKEN' //풀받고 토큰 알아서바꾸셈 ㄳ
 }
